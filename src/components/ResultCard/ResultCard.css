@@ -1,0 +1,23 @@
+.result-card-link{
+    text-decoration: none;
+}
+.result-card{
+    display: flex;
+    justify-content: center;
+    padding: 10px 15px;
+    min-width: 75px;
+    color: #e7e9f0;
+    background-color: #282d4f;
+    border-radius: 10px;
+    margin: 10px 15px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+    transition: background-color 0.33s;
+}
+.result-card:hover{
+    background-color: #4a5079;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+.result-card-text{
+    margin: 0;
+    font-weight: 100;
+}

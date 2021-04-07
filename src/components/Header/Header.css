@@ -1,0 +1,27 @@
+.head-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+}
+.head-img {
+    width: auto;
+    transition: width 1s;
+}
+.head-img-expanded{
+    width: 260px;
+}
+.head-img-collapsed{
+    width:60px;
+}
+.head-text {
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 10px 0 20px 0;
+    transition: font-size 1s;
+}
+.head-text-expanded{
+    font-size: 32px;
+}
+.head-text-collapsed{
+    font-size: 16px;
+}
